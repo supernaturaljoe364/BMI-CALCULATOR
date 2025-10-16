@@ -1,0 +1,85 @@
+/* A simple, clean design for the BMI calculator */
+body {
+background-color: #f0f4f8;
+font-family: 'Inter', sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100vh;
+align-items: center;
+color: #333;
+}
+
+.card {
+background-color: white;
+padding: 40px;
+border-radius: 12px;
+box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+text-align: center;
+width: 100%;
+max-width: 400px;
+box-sizing: border-box;
+margin: 20px;
+}
+
+
+h3 {
+margin-top: 45px;
+font-size: 24px;
+color: #1a2533;
+margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input{
+display: inline;
+font-weight: bold;
+font-size: 14px;
+}
+
+input[type="number"] {
+display: inline;
+margin: 0 auto 15px;
+width: 100%;
+padding: 5px;
+border: none;
+border-radius: 0;
+box-sizing: border-box;
+font-size: 16px;
+}
+
+input[type="submit"] {
+display: block;
+width: 100px;
+padding: 15px;
+background-color: #007bff;
+color: white;
+margin-top: 10px;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+font-size: 16px;
+font-weight: bold;
+}
+
+#result {
+margin-top: 30px;
+padding: 15px;
+border-radius: 8px;
+color: white;
+font-weight: bold;
+transition: background-color 0.5s ease;
+}
+
+#result h4 {
+margin: 0 0 5px 0;
+}
+
+#result p {
+margin: 0;
+}
